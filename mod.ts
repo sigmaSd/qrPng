@@ -1,4 +1,5 @@
 /**
+ * # Qr Png
  * This module provides functionality to generate a PNG image of a QR code from given input data.
  *
  * @example

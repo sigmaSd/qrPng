@@ -5,6 +5,6 @@ const { qr_png } = instantiate();
 /**
  * Generates a PNG image of a QR code from the given input data.
  */
-export function qrPng(data: Uint8Array) {
+export function qrPng(data: Uint8Array): Uint8Array {
   return qr_png(data);
 }

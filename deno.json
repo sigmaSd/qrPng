@@ -1,0 +1,8 @@
+{
+  "name":"@sigmasd/qrPng",
+  "version":"0.1.0",
+  "exports":"mod.ts",
+  "tasks": {
+    "wasmbuild": "deno run -A jsr:@deno/wasmbuild@0.17.2"
+  }
+}

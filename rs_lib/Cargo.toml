@@ -1,0 +1,12 @@
+[package]
+name = "rs_lib"
+version = "0.0.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+image = { version = "0.25.1", default-features = false, features = ["png"] }
+qrcode = "0.14.0"
+wasm-bindgen = "=0.2.92"
